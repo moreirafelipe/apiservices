@@ -38,7 +38,7 @@ export default class BrasilApi extends Component {
             <h2>Pesquise endereço a partir do serviço Brasil API</h2>
             <Formik initialValues={{ cep: '' }} onSubmit={this.handleSubmit}>
               <Form>
-                <Field placeholder="Insira o nome do usuário" required type="text" name="cep" id="cep" className="form-control my-3" />
+                <Field placeholder="Insira o cep" required type="text" name="cep" id="cep" className="form-control my-3" />
                 <button type="submit" className="btn btn-primary">Pesquisar</button>
               </Form>
             </Formik>
