@@ -11,10 +11,6 @@ export default class BrasilApi extends Component {
     }
   }
 
-  /*   async componentDidMount() {
-      this.handleSubmit({ nomeUsuario: 'MarianaDCL' });
-    } */
-
   handleSubmit = async ({ cep }) => {
     try {
       const response = await ApiBrasil.get(`/api/cep/v1/${cep}`);

@@ -10,10 +10,6 @@ export default class ViaCep extends Component {
       repositorios: []
     }
   }
-  /* 
-    async componentDidMount() {
-      this.handleSubmit({ nomeUsuario: 'MarianaDCL' });
-    } */
 
   handleSubmit = async ({ cep }) => {
     try {
